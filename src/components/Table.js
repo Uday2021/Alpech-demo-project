@@ -120,7 +120,7 @@ export default function DataTable() {
       {/* Table for data plotting */}
 
       <DataGrid
-        rows={search == '' ? row : filteredRow}
+        rows={search === '' ? row : filteredRow}
         columns={columns}
         pageSize={5}
         rowsPerPageOptions={[5]}
